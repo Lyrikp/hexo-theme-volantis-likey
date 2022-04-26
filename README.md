@@ -1,62 +1,39 @@
 <p align="center">
   <a href='https://volantis.js.org'><img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png' height='120px'></a>
 </p>
-
 [![](https://img.shields.io/npm/v/hexo-theme-volantis.svg?style=flat-square)](https://www.npmjs.com/package/hexo-theme-volantis)
 
-## Getting Started
+## 修改说明
 
-Check your environment:
+本主题基于VolantisV5.0.0-rc.102修改，增添了一些部件。
 
-```yaml
-Hexo: 5.4 ~ 6.x
-hexo-cli: 4.3 ~ latest
-node.js: 16.x LTS ~ latest LTS
-npm: 8.x ~ latest LTS
-```
+- [x] 超链接下划线样式
+- [x] 行内代码样式（行号及字体）
+- [x] 增添少许note标签的小图标
+- [ ] 点击烟花效果
+- [ ] 泡泡上升效果
 
-Edit your `_config.yml`:
 
-```yaml
-theme: volantis
-```
 
-Install Volantis in terminal:
+## 超链接下划线
 
-```bash
-npm i hexo-theme-volantis
-```
+参考枋柚梓老师的 [Volantis 主题修改合集](https://inkss.cn/blog/610620a9/)
 
-## Usage
+修改文件 `/source/css/_likey/cover.styl` 
 
-See docs: https://volantis.js.org
+## 增添 note 标签图标
 
-or:  https://vlts.cc
+参考枋柚梓老师的 [Volantis 主题修改合集](https://inkss.cn/blog/610620a9/)
 
-or:  https://volantis.vercel.app
+修改文件 `/source/css/_likey/note.styl` 
 
-## Examples
+## 行内代码样式
 
-See examples: https://volantis.js.org/examples/
+参考 [Volantis - 更改行间代码行数及字体](https://lyrikp.art/2022/04/01/vlts-highlights/)
 
-Add your blog to examples page: https://github.com/volantis-x/examples/issues/
+修改文件  
 
-## Feedback
+`/source/css/_likey/codeblock.styl`   
 
-Feedback to developer: https://github.com/volantis-x/hexo-theme-volantis/issues/
+`/themes/volantis/layout/_plugins/highlight/highlightjs/script.ejs`
 
-Discuss with other users: https://github.com/volantis-x/hexo-theme-volantis/discussions/
-
-## Screenshot
-
-![](https://i.loli.net/2020/03/18/f5PQlWisvm9zbgK.jpg)
-
-![](https://i.loli.net/2020/03/18/XWBGf95E2t1bdnl.jpg)
-
-![](https://i.loli.net/2020/03/18/1TpiUwhuskGm5SV.png)
-
-![](https://i.loli.net/2020/03/18/LZwBtR5YO4zQH9A.png)
-
-![](https://i.loli.net/2020/03/18/ySw8zGHRBrDtUg7.png)
-
-![](https://i.loli.net/2020/03/18/5QTMYsScOz41Vhg.png)
